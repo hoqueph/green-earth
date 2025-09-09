@@ -90,9 +90,9 @@ const loadPost = async (data) => {
       <span class="text-lg font-bold text-black-600">৳<span class="price ">${plant.price}</span></span>
       </div>
       <div class="card-actions mt-2">
-      <button class="btn bg-green-600 text-white rounded-full w-full text-base font-medium py-2 cart-btn" data-id="${plant.id}">
-       Add to Cart
-      </button>
+     <button class="btn bg-green-600 hover:text-black text-white rounded-full w-full text-base font-medium py-2 cart-btn" data-id="${plant.id}">
+     Add to Cart
+     </button> 
       </div>
       </div>
       `;
